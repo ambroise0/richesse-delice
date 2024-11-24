@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Richesse Délice</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            color: #fff;
+            background: url('RICHESSE Délice (5).png') no-repeat center center fixed;
+            background-size: cover;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        h1 {
+            margin-top: 50px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 5px #000;
+            animation: slideDown 2s ease-in-out;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            font-size: 1.2em;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        li {
+            margin: 10px 0;
+            text-shadow: 1px 1px 3px #000;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Liste des menus proposés par Richesse Délice</h1>
+    <ul>
+        <li><strong><h2>Boissons Chaudes</strong></h2>
+            <ul>
+                <li>Thé - 200 FCFA</li>
+                <li>Chocolat chaud - 300 FCFA</li>
+            </ul>
+        </li>
+        <li><strong><h2>Produits Lactés et Glacés</strong></h2>
+            <ul>
+                <li>Dêguê - 400 FCFA</li>
+                <li>Yaourt nature ou aromatisé - 500 FCFA</li>
+                <li>Crèmes glacées (différents parfums) - 600 FCFA</li>
+            </ul>
+        </li>
+        <li><strong><h2>Snacks</strong></h2>
+            <ul>
+                <li>Koliko (ignames frites) - 500 FCFA</li>
+                <li>Frites (pommes de terre) - 500 FCFA</li>
+                <li>Alloco (bananes plantains frites) - 400 FCFA</li>
+            </ul>
+        </li>
+        <li><strong><h2>Plats</strong></h2>
+            <ul>
+                <li>Djinkoumé (avec accompagnement au choix) - 800 FCFA</li>
+            </ul>
+        </li>
+        <li><strong><h2>Smoothies et Glaces</strong></h2>
+            <ul>
+                <li>Smoothies (fruits variés : mangue, ananas, banane, etc.) - 700 FCFA</li>
+                <li>Glaces spéciales avec toppings - 800 FCFA</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
